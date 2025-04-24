@@ -17,7 +17,7 @@ body{
 
 .pixel{
     box-sizing: border-box;
-    background-color: blue;
+    background-color: white;
     border: 0.1rem solid gray;
 }
 
@@ -62,6 +62,8 @@ body{
 
 #button-clear:hover{
     cursor: pointer;
+    background-color: blue;
+    color: white;
 }
 
 #lateral-menu{
@@ -73,13 +75,18 @@ body{
 
 }
 
-#options-icons{
+.options-icons{
     width: 30px;
     gap: 30px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-#options-icons{
+.options-icons:hover{
     cursor:pointer;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #lateral-menu{
@@ -91,3 +98,8 @@ body{
     align-items: center;
     
 }
+#color-input {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+  }
